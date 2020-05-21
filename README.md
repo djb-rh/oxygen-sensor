@@ -33,6 +33,18 @@ https://store.ncd.io/product/screw-terminal-breakout-board-for-particle-photon/
 
 You don't need the above as pretty much any Particle breakout board will do. These are well made, easy, and cheap though. Also note that this board has a specific style of I2C connector used by NCD devices. Their I2C sensors are good, but often pretty expensive compared to similar products from Adafruit.  For example, NCD sells an SHT-31 temp/hum sensor for $33 and Adafruit has a similar product for $13.  The NCD one has both an in and out I2C connector that matches the ones on their boards, which is super nice and convenient, but if you don't care or need that, go with the cheaper option. Also note that NCD sells those connectors they use for I2C way cheaper than even Digikey does, so if you plan to use that standard but want to make your own connections, buy your connectors from NCD!  They also have a fairly decent price on premade cables in different lengths for the I2C bus, too.
 
+If you need an altitude to oxygen chart, this is a good one:
+
+https://hypoxico.com/altitude-to-oxygen-chart/
+
+I used the spreadsheet file they have posted there to steal the formula I used to turn percentage of oxygen into an approximate altitude, too.
+
+# Future Enhancements
+
+- set calibration factor remotely
+- store calibration factor in EEPROM
+
+## Particle generated text below
 
 ## Welcome to your project!
 
